@@ -1,8 +1,32 @@
+:root {
+    /* fonts */
+  --main-font:"Roboto";
+  --secondary-font: "Raleway";
+
+    /* text-color */
+--accent-color:212121;
+    /* bg-color */
+
+    /* others */
+}
 body {
-font-family: "Roboto", sans-serif;
+font-family: var(--main-fonts) "Roboto", "Raleway", sans-serif;
 font-size: 14px;
 font-weight: 400;
+line-height: 1.71;
+color: #212121;
 }
+
+/* common styles start */
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/* common styles end */
+
 .menu-nav :hover,
 .menu-nav :focus {
     color: #2196F3;
