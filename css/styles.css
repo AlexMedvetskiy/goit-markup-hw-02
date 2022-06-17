@@ -1,10 +1,10 @@
 :root {
     /* fonts */
-  --main-font:"Roboto";
+  --main-fonts: "Roboto";
   --secondary-font: "Raleway";
 
     /* text-color */
---accent-color:212121;
+--accent-color: #757575;
     /* bg-color */
 
     /* others */
@@ -12,16 +12,80 @@
 body {
 font-family: var(--main-fonts) "Roboto", "Raleway", sans-serif;
 font-size: 14px;
-font-weight: 400;
-line-height: 1.71;
-color: #212121;
+line-height:1.71;
+color: #757575;
+
+
 }
 
-/* common styles start */
-.link {
+.header-logo{
+    text-decoration: none;}
+.header-logo {
+    list-style: none;
+}
+.header-list {
+    text-decoration: none;
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        color: #212121;
+}
+.list{
+    list-style: none;
+}
+.header-list {
+    list-style: none;
+}
+.header-contact {
+    text-decoration: none;
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        color: #757575;
+}
+.hero{
+    background-color: #2F303A;
+}
+.section-hero{
+    color: brown;
+    font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36x;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;;
+}
+.btn-hero{
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        color: #FFFFFF;
+        background-color: #2196F3;
+}
+
+
+
+
+.footer-logo{
     text-decoration: none;
 }
-.list {
+.footer-logo{
+    list-style:  none;
+}
+.address-footer{
+    text-decoration: none;
+}
+.address-footer{
+    list-style: none;
+}
+.footer-contact{
+    text-decoration: none;
+}
+.footer-contact{
     list-style: none;
 }
 
