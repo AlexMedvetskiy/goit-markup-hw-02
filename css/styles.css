@@ -63,14 +63,14 @@ color: #757575;
     background-color: #2F303A;
 }
 .section-hero{
-    color: brown;
-    font-family: 'Roboto';
+        font-family: 'Roboto';
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36x;
         text-align: center;
         text-transform: uppercase;
-        color: #FFFFFF;;
+        color: #FFFFFF;
+       
 }
 .btn-hero{
     font-family: 'Roboto';
