@@ -51,6 +51,14 @@ color: #757575;
         line-height: 1.14;
         color: #757575;
 }
+.header-list:hover,
+.header-list:focus{
+    color: #2196F3;
+}
+.header-contact:hover,
+.header-contact:focus{
+    color: #2196F3;
+}
 .hero{
     background-color: #2F303A;
 }
@@ -157,8 +165,8 @@ font-family: 'Roboto';
 .footer-contact{
     list-style: none;
 }
-.list :hover,
-.list :focus {
+.list-footer :hover,
+.list-footer :focus {
     color: #2196F3;
 }
 /* portfolio.html */
@@ -169,9 +177,26 @@ font-family: 'Roboto';
     line-height: 2.00;
     color: #212121;
 }
-.btn-filter{
-   list-style: none;
+  .button{
+    list-style: none;
+    color: #212121;
   }
+  .button{
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        color: #212121;
+  }
+  .button-filters:hover{
+    color: #FFFFFF;
+    background-color: #2196F3;
+  }
+.button-filters:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
   .project{
     list-style: none;
   }
@@ -188,18 +213,7 @@ font-family: 'Roboto';
         line-height: 1.88;
         color: #757575;
   }
-  /* .btn-filter:hover {
-    color: white;
-    background-color: #2196F3;
-    width: 200 px;
-    height: 50;
-  }
-  .btn-filter:focus {
-    background-color: #2196F3;
-    color: white;
-  }
- */
-
+  
 
 
 
