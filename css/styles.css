@@ -17,9 +17,15 @@ color: #757575;
 
 
 }
-
+/* index.html */
 .header-logo{
-    text-decoration: none;}
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
 .header-logo {
     list-style: none;
 }
@@ -66,53 +72,137 @@ color: #757575;
         color: #FFFFFF;
         background-color: #2196F3;
 }
-
-
-
-
+.mission{
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        color: #212121;
+}
+.mission-heading{
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: #212121;
+}
+.features{
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: #757575;
+}
+.about-heading{
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height:1.16;
+        text-align: center;
+        color: #212121;
+}
+.team-heading{
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        color: #212121;
+}
+.team-heading{
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        color: #212121;
+}
+.team{
+font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: #757575;
+}
+.footer{
+    background-color: #2F303A;
+}
 .footer-logo{
     text-decoration: none;
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: #2196F3;
 }
 .footer-logo{
     list-style:  none;
 }
 .address-footer{
     text-decoration: none;
+    color: #FFFFFF;
 }
 .address-footer{
     list-style: none;
 }
 .footer-contact{
     text-decoration: none;
+    font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
 }
 .footer-contact{
     list-style: none;
 }
-
-/* common styles end */
-
-.menu-nav :hover,
-.menu-nav :focus {
+.list :hover,
+.list :focus {
     color: #2196F3;
 }
-.section-hero:hover,
-.section-hero:focus {
-    color: white; 
-    background-color: #2196F3;
+/* portfolio.html */
+.portfolio-heading{
+font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    color: #212121;
 }
-.address-footer :hover,
-.address-footer :focus {
-    color: #2196F3;
-}
-
-.section-filter :hover {
+.btn-filter{
+   list-style: none;
+  }
+  .project{
+    list-style: none;
+  }
+  .project-heading{
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2.00px;
+        color: #212121;
+  }
+  .title-project{
+    font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 1.88;
+        color: #757575;
+  }
+  /* .btn-filter:hover {
     color: white;
     background-color: #2196F3;
     width: 200 px;
     height: 50;
-}
-
-.section-filter :focus {
+  }
+  .btn-filter:focus {
     background-color: #2196F3;
     color: white;
-}
+  }
+ */
+
+
+
+
+
+
+
