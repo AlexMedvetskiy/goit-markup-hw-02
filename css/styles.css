@@ -14,20 +14,28 @@ font-family: var(--main-fonts) "Roboto", "Raleway", sans-serif;
 font-size: 14px;
 line-height:1.71;
 color: #757575;
+letter-spacing: normal;
 
 
 }
 /* index.html */
+.studio-color {
+    color: #2196F3;
+}
+
 .header-logo{
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #2196F3;
+    color: #000000;
 }
 .header-logo {
     list-style: none;
+}
+.web-color {
+    color: #2196F3;
 }
 .header-list {
     text-decoration: none;
@@ -98,7 +106,6 @@ color: #757575;
 }
 .features{
     font-family: 'Roboto';
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         color: #757575;
@@ -111,7 +118,7 @@ color: #757575;
         text-align: center;
         color: #212121;
 }
-.team-heading{
+.section-team-heading{
     font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
@@ -136,6 +143,10 @@ font-family: 'Roboto';
 }
 .footer{
     background-color: #2F303A;
+
+}
+.web-color-footer {
+ color: #2196F3;
 }
 .footer-logo{
     text-decoration: none;
@@ -143,7 +154,7 @@ font-family: 'Roboto';
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        color: #2196F3;
+        color: #FFFFFF;
 }
 .footer-logo{
     list-style:  none;
@@ -151,6 +162,8 @@ font-family: 'Roboto';
 .address-footer{
     text-decoration: none;
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 .address-footer{
     list-style: none;
@@ -164,12 +177,19 @@ font-family: 'Roboto';
 }
 .footer-contact{
     list-style: none;
+   }
+.list-footer {
+    text-decoration: none;
 }
 .list-footer :hover,
 .list-footer :focus {
     color: #2196F3;
 }
 /* portfolio.html */
+.portfolio-color {
+   color: #2196F3;
+}
+
 .portfolio-heading{
 font-family: 'Roboto';
     font-weight: 700;
@@ -188,6 +208,7 @@ font-family: 'Roboto';
         line-height: 1.62;
         text-align: center;
         color: #212121;
+        cursor: pointer;
   }
   .button-filters:hover{
     color: #FFFFFF;
@@ -196,6 +217,19 @@ font-family: 'Roboto';
 .button-filters:focus{
     color: #FFFFFF;
     background-color: #2196F3;
+    }
+.button-filtres {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
 }
   .project{
     list-style: none;
