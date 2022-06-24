@@ -195,6 +195,9 @@ font-family: 'Roboto';
 .list-footer :focus {
     color: var(--brand-color);
 }
+
+
+
 /* portfolio.html */
 .portfolio-color {
    color: var(--brand-color);
@@ -210,6 +213,7 @@ font-family: 'Roboto';
   .button{
     list-style: none;
     color: var(--header-color);
+    
   }
   .button{
     font-family: 'Roboto';
@@ -222,6 +226,9 @@ font-family: 'Roboto';
         color: var(--header-color);
         cursor: pointer;
   }
+.button-filters {
+    font-family: inherit;
+}
   .button-filters:hover{
     color: var(--text-background);
     background-color: var(--brand-color);
