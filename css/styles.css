@@ -92,6 +92,7 @@ letter-spacing: normal;
         color: var(--text-background);
         background-color: var(--brand-color);
         cursor: pointer;
+        border: none;
 }
 .mission{
     font-family: 'Roboto';
@@ -228,14 +229,20 @@ font-family: 'Roboto';
   }
 .button-filters {
     font-family: inherit;
-}
+    border: none;
+    }
+    
+
   .button-filters:hover{
     color: var(--text-background);
     background-color: var(--brand-color);
+    border: none;
+
   }
 .button-filters:focus{
     color: var(--text-background);
     background-color: var(--brand-color);
+    border: none;
     }
 
   .project{
